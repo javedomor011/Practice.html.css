@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--async & defer-->
+    <script type="text/javascript" async src="/js/main.js"></script>
+    <script type="text/javascript" defer src="/js/button.js"></script>
+   
+</head>
+<body>
+    <!--html boolean attributes-->
+    <!--allowfullscreen & default-->
+    <h1>Assalamualaikum Everyone</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ERxv7BMesmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--autofocus,disabled,required,inert,multiple,formnovalidate-->
+    <div>
+    <form action="#">
+        <div>
+        <label for="your name">Your Name</label>
+        <input type="your name" autofocus required>
+        </div>
+        <div>
+        <label for="your password">Your Password</label>
+        <input type="password" multiple>
+        </div> 
+        <button class="buttons" type="submit">Sign In</button>
+        <button class="buttons" type="submit" formnovalidate> <a href="/pages/form.html" id="button" target="_blank">Sign Up</a></button>
+        <button class="buttons" id="reset" type="reset">Reset</button>
+        <button class="buttons" disabled inert>Forgetten Password</button>
+    </form>  
+      <!--checked-->
+      <div>
+        <form action="#" method="post">
+           <input type="checkbox" checked>
+           You agree to our Terms and Privacy       
+        </form>
+        </div>
+        <div>
+            <button class="buttons" type="submit"><a href="/pages/float_layout.html" id="button" target="_blank">Float Layout</a></button>
+        </div>
+    </div>
+    <!--autoplay,controls,loop,muted,playsinline-->    
+    <video playsinline class="video" loop controls autoplay muted> 
+       <source src="/videos/about_me.mp4" type="video/mp4">
+    </video> 
+    <!--ismap-->
+    <div>
+    <a href="#">
+     <img class="bird" ismap src="/image/bird.jpg" alt="bird">
+    </a>
+    </div>
+    <!--readonly,open-->
+    <div>
+        <h2>About Lorem</h2>
+        <details open>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus inventore laboriosam illo libero repellendus, hic maiores qui doloremque repudiandae fugit, architecto nihil consequuntur est, labore mollitia similique velit sapiente assumenda?
+        </details>
+        <input class="text" type="text" placeholder="Lorem ipsum dolor sit amet" readonly>
+    </div>
+    <!--reversed-->
+    <div>
+        <ol reversed>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ol>
+    </div>
+    <!--selected-->
+    <div>
+        <h2>Select a option</h2>
+        <label for="animal">Animal</label>
+        <select name="animal" id="animal">
+             <option value="cat">Cat</option>
+             <option value="dog" selected>Dog</option>
+             <option value="cow">Cow</option>
+        </select>
+    </div>
+    
+    
+</body>
+</html>

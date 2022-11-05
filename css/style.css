@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(191, 242, 242);
+}
+.video{
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+}
+button{
+    color: black;
+}
+.buttons{
+    margin: 10px 5px 10px 5px ;
+}
+.bird{
+    height: 300px;
+}
+.text{
+    padding: 10px;
+}
+#button{
+    text-decoration: none;
+    color: black;
+}
